@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <meta charset="utf-8">
+  <title>AngularJS</title>
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/ArtistDirectoryStyle.css">
+
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="js/ArtistDirectoryApp.js"></script>
+    <script src="js/ArtistDirectoryControllers.js"></script>
+
+</head>
+<!--<body class="bg-secondary" ng-controller="MyController">-->
+<body class="bg-secondary">
+
+
+
+
+<div ng-view></div>
+
+<!--
+
+I just took out the code because i'm going to be handling the content with only controllers now.
+
+<div ng-view></div> is the controller that i'm starting with.
+
+Because of this, I won't need the ng-controller in the body tag.
+
+-->
+
+
+  <script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/popper.min.js"></script>
+<script src="lib/bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>
